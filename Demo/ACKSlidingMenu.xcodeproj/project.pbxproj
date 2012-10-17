@@ -18,6 +18,15 @@
 		B49A41FF162E03410029FAD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A41FE162E03410029FAD6 /* Default-568h@2x.png */; };
 		B49A4202162E03410029FAD6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B49A4201162E03410029FAD6 /* ViewController.m */; };
 		B49A4218162E25FF0029FAD6 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B49A4217162E25FF0029FAD6 /* QuartzCore.framework */; };
+		B49A422F162E39AB0029FAD6 /* ACKSlidingMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = B49A4227162E39AB0029FAD6 /* ACKSlidingMenu.m */; };
+		B49A4230162E39AB0029FAD6 /* ACKSMArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A4229162E39AB0029FAD6 /* ACKSMArrow.png */; };
+		B49A4231162E39AB0029FAD6 /* ACKSMArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A422A162E39AB0029FAD6 /* ACKSMArrow@2x.png */; };
+		B49A4232162E39AB0029FAD6 /* ACKSMHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A422B162E39AB0029FAD6 /* ACKSMHeader.png */; };
+		B49A4233162E39AB0029FAD6 /* ACKSMHeader@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A422C162E39AB0029FAD6 /* ACKSMHeader@2x.png */; };
+		B49A4234162E39AB0029FAD6 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A422D162E39AB0029FAD6 /* search.png */; };
+		B49A4235162E39AB0029FAD6 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A422E162E39AB0029FAD6 /* search@2x.png */; };
+		B49A4238162E3A8D0029FAD6 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A4237162E3A8D0029FAD6 /* logo.png */; };
+		B49A423A162E3B1C0029FAD6 /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B49A4239162E3B1C0029FAD6 /* logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +46,16 @@
 		B49A4200162E03410029FAD6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B49A4201162E03410029FAD6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B49A4217162E25FF0029FAD6 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B49A4226162E39AB0029FAD6 /* ACKSlidingMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACKSlidingMenu.h; sourceTree = "<group>"; };
+		B49A4227162E39AB0029FAD6 /* ACKSlidingMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACKSlidingMenu.m; sourceTree = "<group>"; };
+		B49A4229162E39AB0029FAD6 /* ACKSMArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ACKSMArrow.png; sourceTree = "<group>"; };
+		B49A422A162E39AB0029FAD6 /* ACKSMArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACKSMArrow@2x.png"; sourceTree = "<group>"; };
+		B49A422B162E39AB0029FAD6 /* ACKSMHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ACKSMHeader.png; sourceTree = "<group>"; };
+		B49A422C162E39AB0029FAD6 /* ACKSMHeader@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ACKSMHeader@2x.png"; sourceTree = "<group>"; };
+		B49A422D162E39AB0029FAD6 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		B49A422E162E39AB0029FAD6 /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		B49A4237162E3A8D0029FAD6 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		B49A4239162E3B1C0029FAD6 /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +104,7 @@
 		B49A41EE162E03410029FAD6 /* ACKSlidingMenu */ = {
 			isa = PBXGroup;
 			children = (
+				B49A4225162E39AB0029FAD6 /* Source */,
 				B49A41F7162E03410029FAD6 /* AppDelegate.h */,
 				B49A41F8162E03410029FAD6 /* AppDelegate.m */,
 				B49A4200162E03410029FAD6 /* ViewController.h */,
@@ -97,6 +117,8 @@
 		B49A41EF162E03410029FAD6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B49A4239162E3B1C0029FAD6 /* logo@2x.png */,
+				B49A4237162E3A8D0029FAD6 /* logo.png */,
 				B49A41F0162E03410029FAD6 /* ACKSlidingMenu-Info.plist */,
 				B49A41F1162E03410029FAD6 /* InfoPlist.strings */,
 				B49A41F4162E03410029FAD6 /* main.m */,
@@ -106,6 +128,30 @@
 				B49A41FE162E03410029FAD6 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B49A4225162E39AB0029FAD6 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B49A4226162E39AB0029FAD6 /* ACKSlidingMenu.h */,
+				B49A4227162E39AB0029FAD6 /* ACKSlidingMenu.m */,
+				B49A4228162E39AB0029FAD6 /* imgs */,
+			);
+			name = Source;
+			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		B49A4228162E39AB0029FAD6 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				B49A4229162E39AB0029FAD6 /* ACKSMArrow.png */,
+				B49A422A162E39AB0029FAD6 /* ACKSMArrow@2x.png */,
+				B49A422B162E39AB0029FAD6 /* ACKSMHeader.png */,
+				B49A422C162E39AB0029FAD6 /* ACKSMHeader@2x.png */,
+				B49A422D162E39AB0029FAD6 /* search.png */,
+				B49A422E162E39AB0029FAD6 /* search@2x.png */,
+			);
+			path = imgs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +209,14 @@
 				B49A41FB162E03410029FAD6 /* Default.png in Resources */,
 				B49A41FD162E03410029FAD6 /* Default@2x.png in Resources */,
 				B49A41FF162E03410029FAD6 /* Default-568h@2x.png in Resources */,
+				B49A4230162E39AB0029FAD6 /* ACKSMArrow.png in Resources */,
+				B49A4231162E39AB0029FAD6 /* ACKSMArrow@2x.png in Resources */,
+				B49A4232162E39AB0029FAD6 /* ACKSMHeader.png in Resources */,
+				B49A4233162E39AB0029FAD6 /* ACKSMHeader@2x.png in Resources */,
+				B49A4234162E39AB0029FAD6 /* search.png in Resources */,
+				B49A4235162E39AB0029FAD6 /* search@2x.png in Resources */,
+				B49A4238162E3A8D0029FAD6 /* logo.png in Resources */,
+				B49A423A162E3B1C0029FAD6 /* logo@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +230,7 @@
 				B49A41F5162E03410029FAD6 /* main.m in Sources */,
 				B49A41F9162E03410029FAD6 /* AppDelegate.m in Sources */,
 				B49A4202162E03410029FAD6 /* ViewController.m in Sources */,
+				B49A422F162E39AB0029FAD6 /* ACKSlidingMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +339,7 @@
 				B49A420A162E03410029FAD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
